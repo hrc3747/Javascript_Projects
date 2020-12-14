@@ -18,19 +18,24 @@ function Divide () {
     document.getElementById("Math4").innerHTML = "2 / 2 = " + x;
 }
 
+function Modulus () {
+    var x = 11 % 4;
+    document.getElementById("Math5").innerHTML = "11 / 4 = 2 with a remainder of " + x;
+}
+
 function Increment () {
     var x = 2;
     x++;
-    document.getElementById("Math5").innerHTML = "2 + 1 = " + x;
+    document.getElementById("Math6").innerHTML = "2 + 1 = " + x;
 }
 
 function Decrement () {
     var x = 2;
     x--;
-    document.getElementById("Math6").innerHTML = "2 - 1 = " + x;
+    document.getElementById("Math7").innerHTML = "2 - 1 = " + x;
 }
 
 function Random () {
     var x = Math.random()
-    document.getElementById("Math7").innerHTML = x;
+    document.getElementById("Math8").innerHTML = x;
 }
