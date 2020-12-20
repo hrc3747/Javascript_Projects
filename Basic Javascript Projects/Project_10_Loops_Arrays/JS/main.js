@@ -36,25 +36,29 @@ function constant_Function() {      //Create a function
     document.getElementById("Constant").innerHTML = "Abby weighs " + Abby_Dog[1] + "lbs and she is " + Abby_Dog[2] +".";        //Modify the HTML element to show the resulting string including values from the array
 }
 
-let house = {       //Use let to create an object
-    city: "Denver",     //Define object properties and values
-    price: 600000,
-    size: 2500,
-    bedrooms: 4,
-    bathrooms: 3,
-    description : function() {      //Define a function as a method for the object
-        return "This " + this.bedrooms + " bed/" + this.bathrooms + " bath house in " + this.city + " costs " + this.price + ".  It is " + this.size + " square feet for an average cost of " + this.cost/this.size + "$ per sq ft.";
+function House_Obj () {
+    let house = {       //Use let to create an object
+        city: "Denver",     //Define object properties and values
+        price: 600000,
+        size: 2500,
+        bedrooms: 4,
+        bathrooms: 3,
+        description : function() {      //Define a function as a method for the object
+            return "This " + this.bedrooms + " bed/" + this.bathrooms + " bath house in " + this.city + " costs $" + this.price + ".";
+        }
     }
-};
-document.getElementById("Let").innerHTML = house.description();     //Modify the html element to show the string created by the object method (not displaying in browser - needs to be fixed)
+    document.getElementById("Let").innerHTML = house.description();     //Modify the html element to show the string created by the object method
+}
+
 
 var output = return_Function();     //Create a variable and set it equal to the output of a function
 
-function return_Function() {        //Define a function
-    return "Hello";     //Return a string
+function Outer_Return() {
+    function return_Function() {        //Define a function
+        return "Hello";     //Return a string
+    }
+document.getElementById("return").innerHTML = return_Function();       //Modify HTML element to display the variable that represents the output of a function
 }
-
-document.getElementById("return").innerHTML = output;       //Modify HTML element to display the variable that represents the output of a function (not displaying in browser - needs to be fixed)
 
 function break_Function() {     //Create a function
     var text = "";      //Define a variable
