@@ -1,0 +1,17 @@
+Javascript Projects
+
+This is a collection of projects I built using Javascript.
+
+Projects
+- Calculator
+- Pizza Project
+- Tic Tac Toe
+
+Calculator
+This program displays a functioning calculator using javascrip to perform the math operations, with the calculator display built using HTML and formatted using CSS.
+
+Pizza Project
+This program allows the user to build a pizza by making their selections in the browser, and generates a total cost based on the inputs.
+
+Tic Tac Toe
+This program is a functioning tic tac toe game written in Javascript that can be played in the browser.  The display is pokemon-themed and was built using HTML and formatted using CSS.
