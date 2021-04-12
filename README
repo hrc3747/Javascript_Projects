@@ -8,7 +8,7 @@ Projects
 - Tic Tac Toe
 
 Calculator
-This program displays a functioning calculator using javascrip to perform the math operations, with the calculator display built using HTML and formatted using CSS.
+This program displays a functioning calculator using javascript to perform the math operations, with the calculator display built using HTML and formatted using CSS.
 
 Pizza Project
 This program allows the user to build a pizza by making their selections in the browser, and generates a total cost based on the inputs.
